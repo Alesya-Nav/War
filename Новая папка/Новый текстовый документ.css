@@ -1,0 +1,150 @@
+
+    
+    *
+    {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    }
+    *,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+    :focus,:active{outline:thistle;}
+    a:focus,a:active{outline: white;}
+    
+    nav,footer,header,aside{display: block;}
+    
+    html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    }
+    input,button,textarea{font-family:inherit;}
+    
+    input::-ms-clear{display: none;}
+    button{cursor: pointer;}
+    button::-moz-focus-inner {padding:0;border:0;}
+    a, a:visited{text-decoration: none;}
+    a:hover{text-decoration: none;}
+    ul li{list-style: none;}
+    img{vertical-align: top;}
+    ul li{
+    margin:0;
+    padding:0;
+    display:block;
+    
+    }@font-face{
+        font-family: 'IBMPlexSerif-Medium';
+        src: url('fonts/IBMPlexSerif-Medium.woff') format('woff');
+        font-style: normal;
+        font-display: swap;
+       }
+    
+   
+    @font-face{
+        font-family:'IBMPlexSerif-MediumItalic';
+        src: url('fonts/IBMPlexSerif-MediumItalic.woff') format('woff');
+        font-style: italic;
+        font-display: swap;
+    }
+  
+
+   .container_Alesya{
+       max-width: fit-content; 
+       max-height: 4%;
+       margin: 0 auto;
+       padding: 0 0px;
+      
+   }
+   body{
+    padding-top: 1%;
+    background-image: url('images/lop2.png');
+    background-attachment:local;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  background-position:  center;
+    font-family:'IBMPlexSerif-Medium' ;
+    font-size:41px;
+    color:white;
+    overflow-y:hidden;
+  }
+
+.text1_Alesya{
+    margin-top: 7%;
+    margin-left: 4%;
+
+    width: 800px;
+   
+}
+.text2_Alesya{
+    margin-top: 8%;
+    margin-left: 34%;
+    
+    width: 730px;
+   }
+   .text3_Alesya{
+    margin-top: 8%; 
+    margin-left: 57%;
+    
+    width: 700px;
+     }
+   .text4_Alesya{
+   margin-top: -5%;
+   margin-left: 9%;
+   margin-right:1024px; 
+   margin-bottom:189px ; 
+   width : 650px;
+   font-family: 'IBMPlexSerif-MediumItalic';
+   color:white;
+   font-size: 31px;
+   
+   }
+
+
+
+   .text5_Alesya{
+    margin-left: 5%;
+      font-size: 17px;
+   margin-top:-7%;
+   width: 619 px;
+  
+   }
+
+  .circle_Alesya{
+background-image: url('images/Стрелка.svg');
+background-repeat: no-repeat;
+height: 100vh;
+margin-top: -4%;
+margin-left:87%; 
+
+ }
+.parallelogram_Alesya{
+    background-image: url('images/Надпись\ под\ фото\ _Нина\ Герасимова_.svg');
+    background-repeat: no-repeat;
+height: 100vh;
+margin-top:-63%;
+margin-left: 4%;
+
+}
+.button_Alesya:hover img{
+    transform:scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform:scale(1.1) ;
+
+}
+.button1_Alesya:hover img{
+    transform:scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform:scale(1.1) ;
+}
+
+
+
